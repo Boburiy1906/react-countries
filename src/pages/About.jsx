@@ -100,6 +100,7 @@ function About() {
                       ? borders.map((border) => {
                           return (
                             <Link
+                              key={border}
                               to={`/about/${border}`}
                               className="border-country"
                             >
